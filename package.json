@@ -7,7 +7,7 @@
     "dev": "ts-node src/app.ts",
     "start": "node dist/app.js",
     "build": "tsc",
-    "test": "vitest",
+    "test": "vitest --reporter verbose",
     "test:watch": "vitest --watch"
   },
   "keywords": [],
